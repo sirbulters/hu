@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>JS Bin</title>
+  <style>
+    .hoverable {
+      cursor:default;
+      color:#000;
+      text-decoration:none;
+      width: 500px;
+      
+    }
+    .hoverable .hover {
+      display:none;
+      width: 500px;
+    }
+    .hoverable:hover .normal {
+      display:none;
+      width: 500px;
+    }
+    .hoverable:hover .hover {
+      display:inline;  /* CHANGE IF FOR BLOCK ELEMENTS */
+      width: 500px;
+
+    }
+
+ 
+  </style>
+</head>
+<body>
+  
+  
+  <a class="hoverable">
+    <img class="normal" src="https://media-springload.s3-ap-southeast-2.amazonaws.com/media/images/janzen-2017.2e16d0ba.fill-500x946.png"/>
+
+<ul class="hover">Maaike - Lerares ICT
+                      <li>Ik deel graag mijn kennis met anderen</li>
+                  </ul>
+
+  </a>
+</body>
+</html>
